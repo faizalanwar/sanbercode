@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Form Pendaftaran</h1>
+    <form action="/home.html" method="POST"> 
+        <label> Nama Lengkap</label><br>
+        <input type="text" name="nama"><br><br>
+
+        <label> Umur </label><br><br>
+        <input type="number" name="umur"><br><br>
+
+        <label> Tanggal Lahir</label><br><br>
+        <input type="date" name="ttl"><br><br>
+
+        <label> Warga Negara</label><br><br>
+      
+        <input type="radio" name="gender" value="WNI">
+        <label for="WNI">WNI</label>
+        <input type="radio" name="gender" value="WNA">
+        <label for="WNA">WNA</label> 
+       
+
+
+
+
+        <label >Skill</label><br><br>
+        <input type="checkbox"> HTML
+        <input type="checkbox"> CSS
+        <input type="checkbox"> Javascript
+        <input type="checkbox"> Laravel
+        <label for=""></label><br><br>
+
+        <label >Jenis Kelamin</label><br><br>
+        <select>
+            <option value="Perempuan">Perempuan</option>
+            <option value="Laki-Laki">Laki-Laki</option>
+        </select><br><br>
+
+        <label>Alamat</label><br><br>
+        <textarea name="alamat" cols="30" rows="10"></textarea><br><br>
+     <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
