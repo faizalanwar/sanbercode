@@ -1,0 +1,10 @@
+.header{
+    position: fixed;width: 100%;z-index: 99;top: 0
+}
+.menuatas{
+    color: black;
+}
+
+.section{
+    margin-top: 8%;
+}
