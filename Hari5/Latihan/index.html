@@ -1,0 +1,34 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <div id="menu-makanan">
+    
+  </div>
+
+  <script>
+    var menuMakanan = document.getElementById("menu-makanan")
+
+    // menambahkan sebuah teks
+    menuMakanan.innerHTML = "Ini adalah menu makanannya"
+
+    // menambahkan element HTML 
+    menuMakanan.innerHTML = "<h2>Ini adalah menu makanannya<h2>"
+
+    // menambahkan banyak element HTML dengan banyak baris dapat gunakan tanda petik backtic `` 
+    menuMakanan.innerHTML = ` <h2>Ini adalah menu makanannya<h2>
+                              <ul>
+                                <li class="list-menu">goreng tempe</li>
+                                <li class="list-menu">mendoan</li>
+                                <li class="list-menu">tahu bulat</li>
+                              </ul>`
+  </script>
+</body>
+</html>
